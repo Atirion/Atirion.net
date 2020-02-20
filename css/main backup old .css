@@ -1,0 +1,40 @@
+ul.dropdown-menu {     
+    background: #111111;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+}
+
+body {
+	color: #fff;
+	background-color: #1B1B1B; 
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	position: center;
+	clear: both;
+    position: relative;
+	padding: 20px 0;
+}
+
+h2 {
+	font-family: 'Kameron', serif;
+	color: #ff4d4d;
+}
+
+h3 {
+	font-family: 'Kameron', serif;
+	color: #ffa5a5;
+}
+
+h4 {
+	font-family: 'Kameron', serif;
+	color: #ffcccc;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+	background-color: green;
+}
