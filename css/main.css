@@ -1,0 +1,37 @@
+html {
+	color: #fff;
+	background-color: #1B1B1B;
+}
+
+.navbar {
+	background-color: #222222;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #ffeba2;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-menu {
+	background-color: #222222;
+}
+
+#navMenu > div > a.navbar-item.has-text-white.is-active {
+	background-color: #222222;
+}
+
+#navMenu > div > a.navbar-item.is-active {
+	background-color: #222222;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+	color: #646464;
+}
+
+#navMenu > div > a:hover {
+	background-color: #383838;
+}

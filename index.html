@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atirion's Website</title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <!--- Fonts --->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /Favicons -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start">
+            <img src="img/img/56.png" href="atirion.net"></a>
+            <a class="navbar-item is-active" href="#">Home</a>
+            <a class="navbar-item has-text-white" href="#">FAQ</a>
+            <a class="navbar-item has-text-white" href="#">Stream</a>
+            <a class="navbar-item has-text-white" href="#">Setup</a>
+            <a class="navbar-item has-text-white" href="#">Fan Art</a>
+            <a class="navbar-item has-text-white" href="#">Merch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+    <!-- navbar script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+    </script>
+    <!-- /navbar script -->
+
+    <!-- content -->
+    <section class="section">
+        <div class="columns">
+          <div class="column is-offset-2 is-3">
+            <img src="img/logo_large.png" alt="Ati" max-width="70%" max-height="70%">
+          </div>
+          <div class="column is-4">
+            <h1 class="title is-spaced is-1 has-text-warning">About Me</h1>
+            <p class="subtitle is-5 has-text-white">I'm a part-time streamer who delights in entertaining others.</p>
+            <p class="subtitle is-5 has-text-white">I'm based in Norway and have been playing games since your grandparents were born. It's been a long time but one of my earliest memories is playing Tomb Raider on the Playstation.</p>
+            <p class="subtitle is-5 has-text-white">Without a doubt, my favorite game from all of my gaming experience is Dark Souls. For some reason I loved the thrill of being knocked into a cycle of hopelessness.</p>
+            <p class="subtitle is-5 has-text-white">Visit my channel and watch me play a wide variety of different games; including Life is Strange, Outlast, Metal Gear Solid and many others that are either suggested by my viewers or spontaneously spring to my mind.</p>
+            <p class="subtitle is-5 has-text-white">Hopefully this small introduction into me, myself and my games has given you some insight into what to expect when you visit.</p>
+            <p class="subtitle is-5 has-text-white">Come and watch LIVE on Twitch!</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="columns">
+          <div class="column is-offset-2 is-3">
+            <h1 class="title is-spaced is-1 has-text-warning">Quick Facts</h1>
+            <p class="subtitle is-5 has-text-white">Name: Otto</p>
+            <p class="subtitle is-5 has-text-white">Nicknames: Atirion, Ati, At Iron</p>
+            <p class="subtitle is-5 has-text-white">Favorite Food: Macaroni, Cheese and Cod casserole</p>
+            <p class="subtitle is-5 has-text-white">Favorite color: Red</p>
+            <p class="subtitle is-5 has-text-white">Occupation: IT</p>
+          </div>
+          <div class="column is-two-fifths">
+            <img src="img/img/me.jpg" alt="Ati" height="75%" width="75%">
+          </div>
+        </div>
+    </section>
+    <!-- /content -->
+
+    <!-- footer -->
+    <!-- /footer -->
+
+  </body>
+</html>
