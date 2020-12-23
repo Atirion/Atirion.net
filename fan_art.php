@@ -72,9 +72,10 @@
                     <li>
                         <a href="setup.html">Setup</a>
                     </li>
+                    <!-- Merch
                     <li>
                         <a href="https://teespring.com/en-GB/stores/ati-merch" target="_blank">Merch</a>
-                    </li>
+                    /. Merch </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
